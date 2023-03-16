@@ -1,0 +1,17 @@
+import os 
+os.system ('cls')
+
+import math
+
+num= float (input ('digite seu numero real:'))
+absoluto= math.fabs (num)
+inteiro = math.trunc(absoluto)
+raiz = math.sqrt(absoluto)
+fatorial = math.factorial(inteiro)
+
+
+
+print(f'absoluto {absoluto}')
+print(f'inteiro {inteiro}')
+print(f'raiz {raiz:.2f}')
+print(f'fatorial: {fatorial}')

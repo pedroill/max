@@ -1,0 +1,10 @@
+import os 
+os.system ('cls')
+
+import math
+
+raio = float (input('digite o raio da circunferencia em cm :'))
+comprimento = 2 * math.pi * raio
+area = math.pi * raio * raio 
+print(f'O comprimento da circuferencia é igual a {comprimento:.2f}cm²')
+print(f'a area do circulo a area a {area :.2f}cm²')
